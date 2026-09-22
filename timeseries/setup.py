@@ -39,7 +39,7 @@ install_requires = [
     #"coreforecast>=0.0.12,<0.0.19",  # >=0.0.17 required by statsforecast 2.1.x
     "fugue==0.9.7",  # prevent dependency clash with omegaconf
     "tqdm",
-    "orjson==3.9",  # use faster JSON implementation in GluonTS
+    "orjson==3.11.6",  # use faster JSON implementation in GluonTS
     "einops==0.7,<1",  # required by Chronos-2 and Toto
     #"chronos-forecasting>=2.3.1,<2.4",
     #"peft>=0.18.1,<0.20",  # >=0.18.1 is compatible with transformers>=5.3
