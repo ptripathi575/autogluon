@@ -37,7 +37,7 @@ install_requires = [
     #"mlforecast>=0.14.0,<0.15.0",  # cannot upgrade since v0.15.0 introduced a breaking change to DirectTabular
     #"utilsforecast>=0.2.3,<0.2.12",  # to prevent breaking changes that propagate through mlforecast's dependency
     #"coreforecast>=0.0.12,<0.0.19",  # >=0.0.17 required by statsforecast 2.1.x
-    "fugue==0.9.0",  # prevent dependency clash with omegaconf
+    "fugue==0.9.7",  # prevent dependency clash with omegaconf
     "tqdm",
     "orjson==3.9",  # use faster JSON implementation in GluonTS
     "einops==0.7,<1",  # required by Chronos-2 and Toto
